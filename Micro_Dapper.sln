@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C612B465-30B9-4903-9298-B2FAAE3828A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro_Dapper.Domain.Core", "Micro_Dapper.Domain.Core\Micro_Dapper.Domain.Core.csproj", "{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9} = {31725A8C-FD48-4B15-B840-28643FB8F5AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {448A1DDF-C744-4659-822C-B7ADD7F36E4D}
