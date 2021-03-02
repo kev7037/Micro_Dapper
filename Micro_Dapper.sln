@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C612B465-30B9-4903-9298-B2FAAE3828A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro_Dapper.Domain.Core", "Micro_Dapper.Domain.Core\Micro_Dapper.Domain.Core.csproj", "{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro_Dapper.Domain.Core", "Micro_Dapper.Domain.Core\Micro_Dapper.Domain.Core.csproj", "{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro_Dapper.Infra.Bus", "Micro_Dapper.Infra.Bus\Micro_Dapper.Infra.Bus.csproj", "{626807FE-BA8E-4A8E-89F3-CD108A3D97B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro_Dapper.Infra.Bus", "Micro_Dapper.Infra.Bus\Micro_Dapper.Infra.Bus.csproj", "{626807FE-BA8E-4A8E-89F3-CD108A3D97B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro_Dapper.Infra.IoC", "Micro_Dapper.Infra.IoC\Micro_Dapper.Infra.IoC.csproj", "{4EFA5776-2A9E-4BC3-88E2-60F5A03798E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{626807FE-BA8E-4A8E-89F3-CD108A3D97B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{626807FE-BA8E-4A8E-89F3-CD108A3D97B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{626807FE-BA8E-4A8E-89F3-CD108A3D97B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFA5776-2A9E-4BC3-88E2-60F5A03798E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFA5776-2A9E-4BC3-88E2-60F5A03798E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFA5776-2A9E-4BC3-88E2-60F5A03798E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFA5776-2A9E-4BC3-88E2-60F5A03798E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B02CBDC7-8FAE-453B-90DB-EEC5D3B56CC9} = {31725A8C-FD48-4B15-B840-28643FB8F5AC}
 		{626807FE-BA8E-4A8E-89F3-CD108A3D97B7} = {B880C165-3701-4675-94C1-6A4576B79470}
+		{4EFA5776-2A9E-4BC3-88E2-60F5A03798E5} = {DF1210B2-828B-4252-9B00-DFCAC899259F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {448A1DDF-C744-4659-822C-B7ADD7F36E4D}
