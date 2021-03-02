@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +10,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Micro_Dapper.Domain.Core\Micro_Dapper.Domain.Core.csproj" />
+    <ProjectReference Include="..\Micro_Dapper.Drivers.Application\Micro_Dapper.Drivers.Application.csproj" />
+    <ProjectReference Include="..\Micro_Dapper.Drivers.Data\Micro_Dapper.Drivers.Data.csproj" />
+    <ProjectReference Include="..\Micro_Dapper.Drivers.Domain\Micro_Dapper.Drivers.Domain.csproj" />
     <ProjectReference Include="..\Micro_Dapper.Infra.Bus\Micro_Dapper.Infra.Bus.csproj" />
   </ItemGroup>
 
